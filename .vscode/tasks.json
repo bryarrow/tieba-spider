@@ -1,0 +1,41 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "D:\\bry-files\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-D",
+                "WIN",
+                "-D",
+                "_DEBUG"
+            ],
+            "options": {
+                "cwd": "D:\\bry-files\\MinGW\\bin"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "Linux g++ build task",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-D",
+                "LIN",
+                "-D",
+                "_DEBUG"
+            ],
+            "options": {
+                "cwd": ""
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,11 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdlib>
+#include "rapidjson/document.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/stringbuffer.h"
+#include "rapidjson/filereadstream.h"
+#include "../vars.cpp"
+#include "../regexs.cpp"
+#include "../Parser.cpp"
