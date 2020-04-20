@@ -20,4 +20,4 @@ __使用了RapidJson库，有关的版权声明与开源协议见[RapidJson](htt
 "name":用于保存帖子的文件夹名，应作为path的子文件夹并包含lzl和source文件夹
 
 ***
-使用MIT协议开源。
+使用GPLv3协议开源。
