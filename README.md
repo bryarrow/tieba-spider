@@ -20,4 +20,11 @@ __使用了RapidJson库，有关的版权声明与开源协议见[RapidJson](htt
 "name":用于保存帖子的文件夹名，应作为path的子文件夹并包含lzl和source文件夹
 
 ***
+### 如何编译？ 
+
+只需运行g++ main.cpp -o main.exe -D WIN即可（Windows）
+有很大的可能性用不了……暂时也不准备改了……
+
+***
+
 使用GPLv3协议开源。
